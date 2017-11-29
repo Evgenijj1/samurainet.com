@@ -1,0 +1,60 @@
+input[type=text].datepicker {
+    width: 12ex;
+    text-align: center;
+}
+
+.form-horizontal  .controls {
+    line-height:2.3
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    height:30px;
+}
+
+.control-group > select,
+.control-group > textarea,
+.control-group > input[type="text"],
+.control-group > input[type="password"],
+.control-group > input[type="datetime"],
+.control-group > input[type="datetime-local"],
+.control-group > input[type="date"],
+.control-group > input[type="month"],
+.control-group > input[type="time"],
+.control-group > input[type="week"],
+.control-group > input[type="number"],
+.control-group > input[type="email"],
+.control-group > input[type="url"],
+.control-group > input[type="search"],
+.control-group > input[type="tel"],
+.control-group > input[type="color"],
+.control-group > .uneditable-input {
+    margin-bottom: 0; /* to allow help-inline just below the control */
+}
+
+#sidebar li a i {
+    margin-right: 5px; /* fix icon margins in sub menu items */
+}
+
+/* fix unicorn.main.css for icons */
+i.fa {
+    background-image: none !important;
+}
+#sidebar i.fa {
+    color: white;
+}
